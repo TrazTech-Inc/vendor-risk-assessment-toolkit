@@ -2,7 +2,7 @@
 
 **A practical, compliance-mapped toolkit for managing third-party and vendor risk.**
 
-Maintained by [TrazTech](https://traztech.ca) — a security and compliance consultancy in Toronto specializing in vendor risk management, SOC 2 readiness, and ISO 27001 implementation. TrazTech has achieved zero exceptions on SOC 2 Type II audits, manages 76 controls, and gets organizations audit-ready in as few as 75 days.
+Maintained by [TrazTech](https://traztech.ca)  - a security and compliance consultancy in Toronto specializing in vendor risk management, SOC 2 readiness, and ISO 27001 implementation. TrazTech has achieved zero exceptions on SOC 2 Type II audits, manages 76 controls, and gets organizations audit-ready in as few as 75 days.
 
 ---
 

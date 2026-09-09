@@ -1,0 +1,11 @@
+Vendor Name,Category,Tier,Data Access Level,SOC 2 Report (Y/N),ISO 27001 Certified (Y/N),DPA Signed (Y/N),Last Review Date,Next Review Date,Risk Score,Owner,Notes
+Amazon Web Services (AWS),Cloud Infrastructure,Tier 1,Restricted,Y,Y,Y,2026-03-15,2027-03-15,4.5,Sarah Chen,Primary cloud provider. SOC 2 Type II reviewed March 2026. Multi-region deployment.
+Stripe,Payment Processing,Tier 1,Restricted,Y,Y,Y,2026-04-01,2027-04-01,4.3,Mike Torres,PCI DSS Level 1 AOC on file. Handles all payment card data.
+CloudWidget Inc,SaaS Application,Tier 2,Confidential,Y,N,Y,2026-06-10,2027-06-10,3.6,Sarah Chen,Core business application. SOC 2 Type II with 1 exception noted. See assessment report.
+Okta,Identity & Access Management,Tier 1,Restricted,Y,Y,Y,2026-02-20,2027-02-20,4.6,Mike Torres,SSO and MFA provider. Critical dependency. Clean SOC 2 Type II.
+Datadog,Monitoring & Observability,Tier 2,Internal,Y,Y,Y,2026-05-05,2027-05-05,4.1,James Park,Application and infrastructure monitoring. Ingests logs and metrics.
+HubSpot,CRM,Tier 2,Confidential,Y,Y,Y,2026-01-15,2027-01-15,3.9,Lisa Wang,Customer relationship management. Contains customer contact info and deal data.
+Acme Legal Services,Legal Consulting,Tier 4,Confidential,N,N,N,2025-08-01,2028-08-01,3.0,Lisa Wang,Outside counsel. Access to confidential docs via secure portal only.
+QuickPrint Co,Office Supplies,Tier 4,None,N,N,N,2025-06-01,2028-06-01,,David Kim,Office supply vendor. No data access. Low risk.
+NovaTech Analytics,Data Analytics,Tier 3,Internal,N,N,Y,2025-11-01,2027-11-01,3.2,James Park,Analytics platform. Processes anonymized usage data. SOC 2 requested but not yet available.
+Zenith HR Solutions,HR & Payroll,Tier 1,Restricted,Y,N,Y,2026-07-01,2027-07-01,3.4,Sarah Chen,Handles employee PII and payroll data. SOC 2 Type II reviewed. Some access control gaps identified -- remediation tracked.

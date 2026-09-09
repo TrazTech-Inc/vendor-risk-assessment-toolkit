@@ -2,8 +2,8 @@
 
 **Detailed Scoring Rubric for Vendor Security Assessments**
 
-**Version:** 1.0
-**Maintained by:** [TrazTech](https://traztech.ca)
+**Version:** 1.0  
+**Maintained by:** [TrazTech](https://traztech.ca)  
 **Compliance Mapping:** SOC 2 CC9.2, CC3.1-CC3.4 | ISO 27001 A.5.19 | NIST CSF ID.SC
 
 ---

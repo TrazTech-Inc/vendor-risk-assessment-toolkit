@@ -1,7 +1,7 @@
 # Vendor Security Questionnaire
 
-**Version:** 1.0
-**Maintained by:** [TrazTech](https://traztech.ca)
+**Version:** 1.0  
+**Maintained by:** [TrazTech](https://traztech.ca)  
 **Compliance Mapping:** SOC 2 CC9.2 | ISO 27001 A.5.19-A.5.22 | HIPAA 164.308(b) | PCI DSS 12.8 | GDPR Art. 28, 32
 
 ---
@@ -19,11 +19,11 @@ This questionnaire is used to assess the security posture of third-party vendors
 **Scoring Scale:**
 | Score | Meaning |
 |-------|---------|
-| 5 | Excellent -- Industry-leading, exceeds requirements |
-| 4 | Good -- Strong practices, meets all requirements |
-| 3 | Adequate -- Meets minimum requirements |
-| 2 | Below Standard -- Gaps exist, compensating controls may be needed |
-| 1 | Inadequate -- Significant deficiencies, material risk |
+| 5 | Excellent: Industry-leading, exceeds requirements |
+| 4 | Good: Strong practices, meets all requirements |
+| 3 | Adequate: Meets minimum requirements |
+| 2 | Below Standard: Gaps exist, compensating controls may be needed |
+| 1 | Inadequate: Significant deficiencies, material risk |
 | N/A | Not applicable to this vendor relationship |
 
 **Tier applicability:**
@@ -1241,7 +1241,7 @@ Please return this completed questionnaire along with the following supporting d
 8. Cyber liability insurance certificate
 9. Privacy policy URL
 
-**Submit to:** [Your security team email]
+**Submit to:** [Your security team email]  
 **Questions about this questionnaire:** [Your contact information]
 
 ---

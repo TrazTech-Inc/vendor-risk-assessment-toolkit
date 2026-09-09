@@ -1,7 +1,7 @@
-# Vendor Risk Assessment Report -- Completed Example
+# Vendor Risk Assessment Report: Completed Example
 
-**Vendor:** CloudWidget Inc
-**Assessment Date:** 2026-06-10
+**Vendor:** CloudWidget Inc  
+**Assessment Date:** 2026-06-10  
 **Assessor:** Sarah Chen, Security Lead
 
 *This is a completed example of a vendor risk assessment report. CloudWidget Inc is a fictional SaaS vendor used for illustration purposes. See the accompanying [Example Completed Questionnaire](example-completed-questionnaire.md) for the full questionnaire responses.*
@@ -33,7 +33,7 @@ CloudWidget Inc provides a cloud-based project management and workflow automatio
 
 Overall, CloudWidget demonstrates a strong security posture with well-documented controls across most domains. The vendor holds a SOC 2 Type II report with one exception (access review timeliness in Q3 2025, since remediated) and is actively pursuing ISO 27001 certification with a target of Q4 2026. Key strengths include comprehensive application security practices, strong access controls with MFA enforcement, and good data protection controls including encryption at rest and in transit.
 
-Two areas warrant attention: (1) the SOC 2 Type II exception, which should be resolved in the next reporting period, and (2) the lack of 24/7 SOC monitoring -- the security team currently monitors during extended business hours with on-call coverage for critical alerts. Neither issue is a blocker for engagement, but both should be tracked for improvement. Approval is recommended with conditions as noted below.
+Two areas warrant attention: (1) the SOC 2 Type II exception, which should be resolved in the next reporting period, and (2) the lack of 24/7 SOC monitoring: the security team currently monitors during extended business hours with on-call coverage for critical alerts. Neither issue is a blocker for engagement, but both should be tracked for improvement. Approval is recommended with conditions as noted below.
 
 ---
 
@@ -70,10 +70,10 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 - [x] Security questionnaire completed (date: 2026-05-28)
 - [x] SOC 2 Type II report reviewed (report period: April 2025 to March 2026)
-- [ ] ISO 27001 certificate reviewed -- N/A, certification in progress
+- [ ] ISO 27001 certificate reviewed: N/A, certification in progress
 - [x] Penetration test report reviewed (date: February 2026, NCC Group)
-- [ ] Architecture/data flow review conducted -- Reviewed via questionnaire; not a separate session
-- [ ] Virtual/on-site security assessment conducted -- Not performed (Tier 2; questionnaire + SOC 2 deemed sufficient)
+- [ ] Architecture/data flow review conducted: Reviewed via questionnaire; not a separate session
+- [ ] Virtual/on-site security assessment conducted: Not performed (Tier 2; questionnaire + SOC 2 deemed sufficient)
 - [x] DPA/contract review completed (date: 2026-06-05)
 - [x] BCP/DR plan reviewed (date: via questionnaire response)
 - [x] Subprocessor list reviewed (date: 2026-06-01)
@@ -111,7 +111,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 - Standard DPA available and comprehensive
 
 **Weaknesses/Gaps:**
-- No customer-managed key (CMK) option (minor -- not required for our use case)
+- No customer-managed key (CMK) option (minor: not required for our use case)
 - Privacy program is adequate but lacks a dedicated privacy professional
 
 **Evidence Reviewed:**
@@ -159,7 +159,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 - CrowdStrike EDR on all endpoints with MDM enforcement
 
 **Weaknesses/Gaps:**
-- No 24/7 SOC -- business hours monitoring (8am-8pm PT) with on-call for critical alerts. This is the most significant gap identified in the assessment.
+- No 24/7 SOC: business hours monitoring (8am-8pm PT) with on-call for critical alerts. This is the most significant gap identified in the assessment.
 
 **Evidence Reviewed:**
 - Infrastructure architecture overview
@@ -331,7 +331,7 @@ None identified.
 - [x] Data deletion upon termination clause
 - [x] Cyber insurance requirement specified
 - [x] Subprocessor notification requirement included
-- [ ] Indemnification clause for data breaches -- *Under legal review; vendor standard indemnification has a cap. Acceptable given the data types involved.*
+- [ ] Indemnification clause for data breaches: *Under legal review; vendor standard indemnification has a cap. Acceptable given the data types involved.*
 
 ### 8.3 Monitoring Recommendations
 

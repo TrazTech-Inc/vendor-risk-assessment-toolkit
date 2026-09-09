@@ -31,12 +31,12 @@ Yet most organizations either skip vendor assessments entirely or rely on ad hoc
 
 ## Quick Start
 
-1. **Read the framework** -- Start with [`methodology/VENDOR_RISK_FRAMEWORK.md`](methodology/VENDOR_RISK_FRAMEWORK.md) to understand the tiering and assessment approach.
-2. **Inventory your vendors** -- Use [`templates/vendor-inventory.csv`](templates/vendor-inventory.csv) to catalog every vendor, their data access level, and current compliance status.
-3. **Assess your vendors** -- Send the [`templates/vendor-security-questionnaire.md`](templates/vendor-security-questionnaire.md) to vendors based on their tier. Use the [`scoring/risk-scoring-guide.md`](scoring/risk-scoring-guide.md) to score responses.
-4. **Document findings** -- Write up results using [`templates/vendor-risk-assessment-report.md`](templates/vendor-risk-assessment-report.md).
-5. **Automate tracking** -- Run [`automation/vendor_tracker.py`](automation/vendor_tracker.py) to flag overdue reviews and vendors missing critical documentation.
-6. **See examples** -- Check [`examples/`](examples/) for completed questionnaires and reports showing what "good" looks like.
+1. **Read the framework**: Start with [`methodology/VENDOR_RISK_FRAMEWORK.md`](methodology/VENDOR_RISK_FRAMEWORK.md) to understand the tiering and assessment approach.
+2. **Inventory your vendors**: Use [`templates/vendor-inventory.csv`](templates/vendor-inventory.csv) to catalog every vendor, their data access level, and current compliance status.
+3. **Assess your vendors**: Send the [`templates/vendor-security-questionnaire.md`](templates/vendor-security-questionnaire.md) to vendors based on their tier. Use the [`scoring/risk-scoring-guide.md`](scoring/risk-scoring-guide.md) to score responses.
+4. **Document findings**: Write up results using [`templates/vendor-risk-assessment-report.md`](templates/vendor-risk-assessment-report.md).
+5. **Automate tracking**: Run [`automation/vendor_tracker.py`](automation/vendor_tracker.py) to flag overdue reviews and vendors missing critical documentation.
+6. **See examples**: Check [`examples/`](examples/) for completed questionnaires and reports showing what "good" looks like.
 
 ## File Inventory
 
@@ -76,10 +76,10 @@ vendor-risk-assessment-toolkit/
 This toolkit uses a **risk-based tiering** approach with **proportional assessment depth**:
 
 1. **Tier vendors** based on data access, integration depth, and business criticality (Critical / High / Medium / Low).
-2. **Assess proportionally** -- Critical vendors get the full 70+ question questionnaire and document review. Low-risk vendors get a streamlined assessment.
+2. **Assess proportionally**: Critical vendors get the full 70+ question questionnaire and document review. Low-risk vendors get a streamlined assessment.
 3. **Score quantitatively** using a weighted rubric across seven security domains.
-4. **Review on schedule** -- Critical vendors annually (or more frequently), with ongoing monitoring for material changes.
-5. **Track and automate** -- Use the inventory tracker and Python automation to ensure nothing slips through the cracks.
+4. **Review on schedule**: Critical vendors annually (or more frequently), with ongoing monitoring for material changes.
+5. **Track and automate**: Use the inventory tracker and Python automation to ensure nothing slips through the cracks.
 
 This mirrors the approach TrazTech uses with its clients. For more on keeping compliance evidence current between audits, see [Keeping Evidence Fresh](https://traztech.ca/blog/keeping-evidence-fresh) and [Control Drift Between Audits](https://traztech.ca/blog/control-drift-between-audits) on the TrazTech blog.
 
@@ -129,8 +129,8 @@ Contributions are welcome. Please open an issue or pull request if you have impr
 - Principal (Jacob Masse) holds 5 CVEs
 
 **Free resources:**
-- [SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist) -- Free downloadable checklist
-- [TrazTech Blog](https://traztech.ca/blog) -- 100+ articles on security and compliance
-- [Compliance Tracking Workspace](https://traztech.ca) -- Free compliance tracking portal
+- [SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist): Free downloadable checklist
+- [TrazTech Blog](https://traztech.ca/blog): 100+ articles on security and compliance
+- [Compliance Tracking Workspace](https://traztech.ca): Free compliance tracking portal
 
 **Get in touch:** Visit [traztech.ca](https://traztech.ca) for a consultation on your vendor risk management program.

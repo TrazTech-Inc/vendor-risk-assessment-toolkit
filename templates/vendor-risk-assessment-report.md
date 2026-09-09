@@ -1,6 +1,6 @@
 # Vendor Risk Assessment Report
 
-**Version:** 1.0
+**Version:** 1.0  
 **Maintained by:** [TrazTech](https://traztech.ca)
 
 ---
@@ -237,7 +237,7 @@
 
 *If recommending "Approve with Conditions," list the conditions that must be met:*
 
-1. [Condition 1 -- e.g., "Vendor must provide SOC 2 Type II report within 6 months"]
+1. [Condition 1: e.g., "Vendor must provide SOC 2 Type II report within 6 months"]
 2. [Condition 2]
 3. [Condition 3]
 

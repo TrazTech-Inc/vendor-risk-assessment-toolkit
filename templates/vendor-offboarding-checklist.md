@@ -2,15 +2,15 @@
 
 **Secure Vendor Termination Procedures**
 
-**Version:** 1.0
-**Maintained by:** [TrazTech](https://traztech.ca)
+**Version:** 1.0  
+**Maintained by:** [TrazTech](https://traztech.ca)  
 **Compliance Mapping:** SOC 2 CC9.2 | ISO 27001 A.5.19-A.5.20 | GDPR Art. 28(3)(g) | HIPAA 164.308(b)
 
 ---
 
 ## Instructions
 
-Complete this checklist when terminating a vendor relationship. Vendor offboarding must be as structured as onboarding -- improper termination can leave orphaned access, undeleted data, and compliance gaps.
+Complete this checklist when terminating a vendor relationship. Vendor offboarding must be as structured as onboarding: improper termination can leave orphaned access, undeleted data, and compliance gaps.
 
 The urgency and completeness of offboarding should reflect the vendor's tier:
 - **Tier 1-2:** Complete all items within 30 days of termination decision
@@ -223,7 +223,7 @@ The urgency and completeness of offboarding should reflect the vendor's tier:
 - [ ] Spot-check that integrations are fully disconnected (test API endpoints, etc.)
 - [ ] Confirm data deletion certification has been received
 
-**Verification Date:** _____________
+**Verification Date:** _____________  
 **Verified By:** _____________
 
 **Notes:**
@@ -239,7 +239,7 @@ The urgency and completeness of offboarding should reflect the vendor's tier:
 | Security Lead | | | |
 | IT Lead | | | |
 
-**Offboarding Complete:** [ ] Yes [ ] No -- Outstanding items: _____________
+**Offboarding Complete:** [ ] Yes [ ] No: Outstanding items: _____________
 
 **Date Completed:** _____________
 

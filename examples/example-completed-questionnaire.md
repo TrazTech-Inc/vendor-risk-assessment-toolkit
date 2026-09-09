@@ -1,8 +1,8 @@
-# Vendor Security Questionnaire -- Completed Example
+# Vendor Security Questionnaire: Completed Example
 
-**Vendor:** CloudWidget Inc
-**Completed By:** Alex Rivera, VP of Security, CloudWidget Inc
-**Date Completed:** 2026-05-28
+**Vendor:** CloudWidget Inc  
+**Completed By:** Alex Rivera, VP of Security, CloudWidget Inc  
+**Date Completed:** 2026-05-28  
 **Assessor:** Sarah Chen, Security Lead
 
 *This is an example of a completed questionnaire showing what good (and not-so-good) responses look like. CloudWidget Inc is a fictional SaaS vendor used for illustration purposes.*
@@ -35,7 +35,7 @@
 
 **Evidence Provided:** Organization chart showing security team reporting structure.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Strong for a company of this size. Dedicated security leadership with Board visibility. Not a 5 because CISO title and direct CEO reporting line are not present, but the function is well-established.
 
 ---
@@ -46,7 +46,7 @@
 
 **Evidence Provided:** Policy cover page with approval signature and revision history showing annual reviews since 2021.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Comprehensive policy with annual review cycle. Current and well-maintained.
 
 ---
@@ -57,7 +57,7 @@
 
 **Evidence Provided:** Training program outline; quarterly phishing simulation results; completion rate dashboard screenshot.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Strong training program. Phishing simulations and role-based training for developers are good indicators of maturity. 94% completion rate is solid.
 
 ---
@@ -68,7 +68,7 @@
 
 **Evidence Provided:** Risk management process document; redacted risk register summary showing 23 tracked risks.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Structured risk management with quarterly reviews. Good risk register hygiene. "Loosely aligned" with ISO 31000 means it is not formally certified, but the process is sound.
 
 ---
@@ -79,7 +79,7 @@
 
 **Evidence Provided:** Background check policy document.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good coverage. Enhanced checks for sensitive roles is a positive signal.
 
 ---
@@ -90,7 +90,7 @@
 
 **Evidence Provided:** Certificate of insurance (current through September 2027).
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Adequate coverage for the scope of the engagement. $5M is reasonable for a company of this size and the type of data processed.
 
 ---
@@ -103,7 +103,7 @@
 
 **Evidence Provided:** Data classification policy; data handling matrix.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Well-defined classification scheme. Handling procedures are documented. Good practice of classifying customer data as Confidential by default.
 
 ---
@@ -114,7 +114,7 @@
 
 **Evidence Provided:** Infrastructure documentation showing encryption configuration; AWS KMS key policy.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** AES-256 with KMS is strong. Annual key rotation is acceptable. Lack of CMK option keeps this from a 5, but is not a concern for our use case.
 
 ---
@@ -125,7 +125,7 @@
 
 **Evidence Provided:** SSL Labs scan report showing A+ rating; TLS configuration documentation.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Excellent. TLS 1.2 minimum, HSTS, mutual TLS internally, and documented A+ SSL Labs rating.
 
 ---
@@ -136,7 +136,7 @@
 
 **Evidence Provided:** Data retention policy; data deletion procedure documentation.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Clear retention policy. 30-day production deletion and 90-day backup deletion are reasonable. Self-service data export is a positive.
 
 ---
@@ -147,7 +147,7 @@
 
 **Evidence Provided:** Data residency documentation; SCC template.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Clear data residency with EU option. SCCs available. Good for our requirements.
 
 ---
@@ -158,7 +158,7 @@
 
 **Evidence Provided:** Backup architecture documentation; most recent quarterly backup restoration test report (April 2026).
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Daily backups with quarterly restore testing is solid. Cross-region backup storage adds resilience.
 
 ---
@@ -169,7 +169,7 @@
 
 **Evidence Provided:** Logging policy; sample log entry format (redacted); alert configuration summary.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Comprehensive logging with centralized SIEM, long retention, and automated alerting. This is a strong capability.
 
 ---
@@ -180,7 +180,7 @@
 
 **Evidence Provided:** Privacy policy URL; PIA process documentation.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** Privacy is addressed but not by a dedicated privacy professional. Adequate for current needs but would benefit from a formal privacy program, especially as they serve EU customers.
 
 ---
@@ -191,7 +191,7 @@
 
 **Evidence Provided:** Standard DPA template.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Standard DPA is comprehensive. Willingness to sign customer DPAs is appreciated. 48-hour breach notification is strong.
 
 ---
@@ -204,7 +204,7 @@
 
 **Evidence Provided:** Authentication configuration documentation; MFA enrollment report showing 100% employee enrollment.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** MFA enforced for all users. Hardware keys for production access. SSO supported. Excellent.
 
 ---
@@ -215,7 +215,7 @@
 
 **Evidence Provided:** SSO integration documentation; SCIM implementation guide.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** SAML and OIDC with SCIM is strong. SSO is not available on all tiers (the "SSO tax" applies to the Starter plan), but it is available on the plan we use. Marking 4 since SSO is restricted by plan.
 
 ---
@@ -226,7 +226,7 @@
 
 **Evidence Provided:** RBAC documentation; role permission matrix.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good RBAC with granular permissions. Custom roles on Enterprise plan. Role change audit trail.
 
 ---
@@ -237,7 +237,7 @@
 
 **Evidence Provided:** Privileged access procedure documentation; bastion host architecture diagram.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** JIT access with automatic revocation is strong. Approval workflow and session logging are present. No dedicated PAM tool, but the controls are effective.
 
 ---
@@ -248,7 +248,7 @@
 
 **Evidence Provided:** Most recent quarterly access review completion evidence (Q1 2026); offboarding playbook documentation.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Quarterly reviews with documented completion. Automated offboarding within 4 hours is strong. Role change reviews within 24 hours.
 
 ---
@@ -259,7 +259,7 @@
 
 **Evidence Provided:** Password policy document; technical documentation confirming bcrypt hashing.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Strong password requirements. bcrypt hashing is appropriate. Reuse prevention in place.
 
 ---
@@ -270,7 +270,7 @@
 
 **Evidence Provided:** API documentation; rate limiting documentation.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** OAuth 2.0 with scoped tokens is the right approach. Self-service key rotation and rate limiting are present.
 
 ---
@@ -281,7 +281,7 @@
 
 **Evidence Provided:** Session management configuration documentation.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Reasonable session timeouts with shorter timeout for admins. Secure session token handling.
 
 ---
@@ -294,7 +294,7 @@
 
 **Evidence Provided:** Infrastructure architecture overview; AWS region/service list.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** AWS is a strong choice with SOC 2 Type II. Multi-region with IaC is mature. Kubernetes orchestration is modern.
 
 ---
@@ -305,18 +305,18 @@
 
 **Evidence Provided:** Network architecture diagram (redacted); network segmentation policy.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good segmentation with separate AWS accounts for environment isolation. Logical tenant isolation. Not micro-segmentation but appropriate for SaaS.
 
 ---
 
 ### D3. Vulnerability Management
 
-**Response:** We run automated vulnerability scans weekly using Qualys on our infrastructure and Snyk for application dependencies. Patching SLAs: Critical -- 48 hours, High -- 7 days, Medium -- 30 days, Low -- 90 days. Patching compliance is tracked on a dashboard reviewed weekly by the security team.
+**Response:** We run automated vulnerability scans weekly using Qualys on our infrastructure and Snyk for application dependencies. Patching SLAs: Critical: 48 hours, High: 7 days, Medium: 30 days, Low: 90 days. Patching compliance is tracked on a dashboard reviewed weekly by the security team.
 
 **Evidence Provided:** Vulnerability management policy; patching SLA document; recent scan summary showing 0 critical and 2 high findings (both under remediation within SLA).
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Weekly scanning with defined SLAs is solid. Two open high findings are within SLA. Active tracking and remediation.
 
 ---
@@ -327,7 +327,7 @@
 
 **Evidence Provided:** Pen test executive summary (NCC Group, February 2026); remediation status showing all findings resolved.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Annual third-party pen test by a reputable firm. All findings remediated. No bug bounty program (which would be needed for a 5).
 
 ---
@@ -338,7 +338,7 @@
 
 **Evidence Provided:** DDoS protection architecture documentation; WAF rule summary.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** AWS Shield Advanced plus WAF is a strong DDoS posture. Documented response runbook.
 
 ---
@@ -349,8 +349,8 @@
 
 **Evidence Provided:** Security monitoring architecture diagram; PagerDuty escalation policy.
 
-**Assessor Score:** 3 / 5
-**Assessor Notes:** Good detection tooling (GuardDuty, Falco, Datadog). However, no 24/7 SOC is a gap -- business-hours monitoring with on-call may miss time-sensitive threats. Score of 3 reflects this gap.
+**Assessor Score:** 3 / 5  
+**Assessor Notes:** Good detection tooling (GuardDuty, Falco, Datadog). However, no 24/7 SOC is a gap: business-hours monitoring with on-call may miss time-sensitive threats. Score of 3 reflects this gap.
 
 ---
 
@@ -360,18 +360,18 @@
 
 **Evidence Provided:** Endpoint security policy; Jamf compliance dashboard screenshot showing 100% encryption compliance.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** EDR, full disk encryption, MDM, USB blocking, and automated patching. Comprehensive endpoint security.
 
 ---
 
 ### D8. Physical Security
 
-**Response:** CloudWidget does not operate its own data centers -- all infrastructure is on AWS, which maintains SOC 2 and ISO 27001 certifications for their data centers. Our offices in San Francisco use badge access with camera surveillance. Visitors must sign in at reception and are escorted at all times.
+**Response:** CloudWidget does not operate its own data centers: all infrastructure is on AWS, which maintains SOC 2 and ISO 27001 certifications for their data centers. Our offices in San Francisco use badge access with camera surveillance. Visitors must sign in at reception and are escorted at all times.
 
 **Evidence Provided:** Office security policy; AWS compliance page reference.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Reliance on AWS for data center physical security is appropriate and well-documented. Office security is adequate.
 
 ---
@@ -384,7 +384,7 @@
 
 **Evidence Provided:** SSDLC documentation; CI/CD pipeline diagram showing security checks.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good SSDLC with automated tooling in CI/CD. Security sign-off for sensitive changes. Threat modeling is not yet systematic (planned), which prevents a 5.
 
 ---
@@ -395,7 +395,7 @@
 
 **Evidence Provided:** Code review policy; CI/CD pipeline configuration showing required checks.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Mandatory peer review with automated SAST/SCA blocking merge. Security team review for sensitive changes. Strong.
 
 ---
@@ -406,7 +406,7 @@
 
 **Evidence Provided:** Snyk dashboard summary; SBOM generation process documentation.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Automated SCA in CI/CD, 48-hour critical SLA, lockfile enforcement, and SBOM generation. Excellent dependency management.
 
 ---
@@ -417,7 +417,7 @@
 
 **Evidence Provided:** Change management policy; deployment pipeline documentation.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Formal change management with automated pipeline, blue-green deployments, automatic rollback, and emergency procedures. Mature process.
 
 ---
@@ -428,7 +428,7 @@
 
 **Evidence Provided:** Environment architecture diagram; data handling policy for non-production environments.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** Strict environment separation with separate AWS accounts. No production data in non-production. Synthetic data used.
 
 ---
@@ -439,7 +439,7 @@
 
 **Evidence Provided:** API documentation (OpenAPI spec); DAST scan summary.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** API gateway with security controls, documented APIs, and periodic DAST. Good API security posture.
 
 ---
@@ -450,7 +450,7 @@
 
 **Evidence Provided:** Secrets management policy; pre-commit hook configuration.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Dedicated secrets manager with pre-commit scanning. Rotation schedules defined. Good secrets hygiene.
 
 ---
@@ -463,7 +463,7 @@
 
 **Evidence Provided:** IRP executive summary; tabletop exercise summary (March 2026).
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** NIST-aligned IRP with annual tabletop exercises. March 2026 exercise is recent. Annual testing (not semi-annual) keeps this at 4.
 
 ---
@@ -474,7 +474,7 @@
 
 **Evidence Provided:** Breach notification policy; notification template.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** 48-hour notification with structured communication. Post-incident report is a good practice.
 
 ---
@@ -485,7 +485,7 @@
 
 **Evidence Provided:** BCP summary; BIA executive summary; most recent BCP/DR test results.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good RTO/RPO. Annual testing. Multi-region architecture. BIA completed recently.
 
 ---
@@ -496,8 +496,8 @@
 
 **Evidence Provided:** DR test results (March 2026) showing 2.5-hour recovery time.
 
-**Assessor Score:** 4 / 5
-**Assessor Notes:** Annual DR testing with documented results. 2.5-hour recovery within RTO. Issue identified and fixed -- shows the process works.
+**Assessor Score:** 4 / 5  
+**Assessor Notes:** Annual DR testing with documented results. 2.5-hour recovery within RTO. Issue identified and fixed: shows the process works.
 
 ---
 
@@ -507,7 +507,7 @@
 
 **Evidence Provided:** SLA documentation; 12-month uptime report; status page URL.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** 99.9% SLA with actual performance exceeding it. Public status page with history. Credit mechanism for outages.
 
 ---
@@ -518,8 +518,8 @@
 
 **Evidence Provided:** October 2025 incident post-mortem (redacted); status page history showing the event.
 
-**Assessor Score:** 4 / 5
-**Assessor Notes:** One availability incident in the past 3 years, no security breach. Transparent handling with post-mortem and remediation. This is actually a positive signal -- it shows the incident process works.
+**Assessor Score:** 4 / 5  
+**Assessor Notes:** One availability incident in the past 3 years, no security breach. Transparent handling with post-mortem and remediation. This is actually a positive signal: it shows the incident process works.
 
 ---
 
@@ -531,7 +531,7 @@
 
 **Evidence Provided:** Subprocessor list URL; subprocessor details with data access descriptions.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Public subprocessor list on Trust Center. Includes data access descriptions for each. Recently updated.
 
 ---
@@ -542,7 +542,7 @@
 
 **Evidence Provided:** Subprocessor assessment policy; evidence that SOC 2 reports are collected annually.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Annual assessment with SOC 2/ISO requirement is good. Contractual security obligations in place.
 
 ---
@@ -553,7 +553,7 @@
 
 **Evidence Provided:** Subprocessor change notification policy; DPA clause referencing notification process.
 
-**Assessor Score:** 5 / 5
+**Assessor Score:** 5 / 5  
 **Assessor Notes:** 30-day advance notification with objection right. Clearly documented. This is the GDPR-compliant approach.
 
 ---
@@ -564,18 +564,18 @@
 
 **Evidence Provided:** Cross-reference to E3 evidence; SOC 2 report review schedule.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** Good SCA practices (covered in E3). SOC 2 review for key partners. However, no formal supply chain risk management framework. Adequate but room for improvement.
 
 ---
 
 ### G5. Fourth-Party Risk
 
-**Response:** We are aware of fourth-party risk but do not have a formal program to manage it. We know that our subprocessors (e.g., AWS) also use subprocessors, and we rely on their SOC 2 reports to provide assurance. We track concentration risk -- AWS is our primary concentration risk.
+**Response:** We are aware of fourth-party risk but do not have a formal program to manage it. We know that our subprocessors (e.g., AWS) also use subprocessors, and we rely on their SOC 2 reports to provide assurance. We track concentration risk: AWS is our primary concentration risk.
 
 **Evidence Provided:** Verbal response; no formal documentation.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** Awareness without formal management. Concentration risk identified (AWS) but not formally tracked. Adequate given the maturity level.
 
 ---
@@ -588,8 +588,8 @@
 
 **Evidence Provided:** SOC 2 Type II report (April 2025 - March 2026) shared under NDA.
 
-**Assessor Score:** 3 / 5
-**Assessor Notes:** SOC 2 Type II is present, which is good. However, one exception (access review timeliness) is noted. The exception has been remediated. Score of 3 reflects the exception -- vendor should demonstrate clean report in next period to improve to 4. Confidentiality criteria not yet included.
+**Assessor Score:** 3 / 5  
+**Assessor Notes:** SOC 2 Type II is present, which is good. However, one exception (access review timeliness) is noted. The exception has been remediated. Score of 3 reflects the exception: vendor should demonstrate clean report in next period to improve to 4. Confidentiality criteria not yet included.
 
 ---
 
@@ -599,7 +599,7 @@
 
 **Evidence Provided:** ISO 27001 implementation project timeline.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** Not certified but actively working toward it. Q4 2026 target is reasonable. Score of 3 reflects the "in progress" status.
 
 ---
@@ -610,7 +610,7 @@
 
 **Evidence Provided:** CSA STAR self-assessment on CSA registry.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** SOC 2 Type II plus CSA STAR Level 1 self-assessment. Additional certifications would strengthen the posture.
 
 ---
@@ -621,7 +621,7 @@
 
 **Evidence Provided:** Regulatory compliance matrix; monthly review process description.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Clear awareness of applicable regulations. Monthly monitoring through external counsel. Good compliance governance.
 
 ---
@@ -632,7 +632,7 @@
 
 **Evidence Provided:** Contract language regarding audit rights (excerpt).
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** SOC 2 report as primary audit mechanism with additional assessment accommodation. On-site available. Reasonable and cooperative approach.
 
 ---
@@ -641,11 +641,11 @@
 
 ### I1. AI/ML Model Overview
 
-**Response:** CloudWidget uses machine learning in two features: 1) Smart project prioritization -- uses a ranking model to suggest task priority based on project history and deadlines, and 2) Document search -- uses embeddings for semantic search across project documents. Both features are optional and can be disabled by the customer admin.
+**Response:** CloudWidget uses machine learning in two features: 1) Smart project prioritization: uses a ranking model to suggest task priority based on project history and deadlines, and 2) Document search: uses embeddings for semantic search across project documents. Both features are optional and can be disabled by the customer admin.
 
 **Evidence Provided:** AI feature documentation; admin toggle documentation.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Clear documentation of AI usage. Both features are optional (can be disabled). Appropriate transparency.
 
 ---
@@ -656,18 +656,18 @@
 
 **Evidence Provided:** AI/ML data usage policy.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Clear data usage policy. No cross-customer training data. Opt-out available. Per-tenant embeddings ensure isolation.
 
 ---
 
 ### I3. AI Output and Decision-Making
 
-**Response:** Our AI features make suggestions only -- they do not make automated decisions that affect individuals. Task priority suggestions require human confirmation. We monitor model accuracy metrics monthly. We have not implemented formal bias testing as the features do not involve demographic data or consequential decisions.
+**Response:** Our AI features make suggestions only: they do not make automated decisions that affect individuals. Task priority suggestions require human confirmation. We monitor model accuracy metrics monthly. We have not implemented formal bias testing as the features do not involve demographic data or consequential decisions.
 
 **Evidence Provided:** AI feature descriptions; model accuracy metrics.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** AI is suggestions-only with human confirmation, which is the right approach. No formal bias monitoring, but given the non-consequential nature of the features, this is acceptable.
 
 ---
@@ -678,7 +678,7 @@
 
 **Evidence Provided:** Input validation documentation; AI infrastructure description.
 
-**Assessor Score:** 3 / 5
+**Assessor Score:** 3 / 5  
 **Assessor Notes:** Basic AI security controls (input validation, content filtering). No adversarial testing. The limited scope of AI usage makes this acceptable, but improvement would be welcome.
 
 ---
@@ -689,7 +689,7 @@
 
 **Evidence Provided:** Help center documentation for AI features; limitations disclosure.
 
-**Assessor Score:** 4 / 5
+**Assessor Score:** 4 / 5  
 **Assessor Notes:** Good transparency. Factor attribution for priority suggestions is a nice touch. Limitations clearly documented.
 
 ---

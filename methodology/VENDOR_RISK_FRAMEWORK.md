@@ -1,7 +1,7 @@
 # Vendor Risk Management Framework
 
-**Version:** 1.0
-**Maintained by:** [TrazTech](https://traztech.ca)
+**Version:** 1.0  
+**Maintained by:** [TrazTech](https://traztech.ca)  
 **Compliance Mapping:** SOC 2 CC9.2 | ISO 27001 A.5.19-A.5.22 | HIPAA 164.308(b) | PCI DSS 12.8
 
 ---
@@ -10,7 +10,7 @@
 
 This framework establishes a structured, risk-based approach to managing third-party vendor relationships. It defines how vendors are classified, assessed, monitored, and offboarded to ensure that third-party risk is identified, measured, and controlled.
 
-Every organization that handles sensitive data relies on vendors. Each vendor relationship introduces risk -- data exposure, operational dependency, compliance gaps, and supply chain vulnerabilities. This framework ensures that risk is proportional to the depth and criticality of each vendor relationship.
+Every organization that handles sensitive data relies on vendors. Each vendor relationship introduces risk: data exposure, operational dependency, compliance gaps, and supply chain vulnerabilities. This framework ensures that risk is proportional to the depth and criticality of each vendor relationship.
 
 This framework is aligned with the methodology TrazTech uses with its clients. For background on maintaining compliance evidence between audit cycles, see [Keeping Evidence Fresh](https://traztech.ca/blog/keeping-evidence-fresh) and [Control Drift Between Audits](https://traztech.ca/blog/control-drift-between-audits).
 
@@ -90,20 +90,20 @@ Sum the three factor scores (0-12 possible) and map to tiers:
 
 | Requirement | Tier 1 (Critical) | Tier 2 (High) | Tier 3 (Medium) | Tier 4 (Low) |
 |-------------|-------------------|---------------|-----------------|--------------|
-| Full security questionnaire (70+ questions) | Required | Required | -- | -- |
-| Abbreviated questionnaire (20-30 questions) | -- | -- | Required | -- |
-| Self-attestation only | -- | -- | -- | Required |
-| SOC 2 Type II report review | Required | Required | Requested | -- |
-| ISO 27001 certificate review | Required | Required | Requested | -- |
-| Penetration test report review | Required | Recommended | -- | -- |
-| Architecture/data flow review | Required | Recommended | -- | -- |
-| On-site or virtual security assessment | Recommended | -- | -- | -- |
-| Data Processing Agreement (DPA) | Required | Required | If applicable | -- |
-| Business Continuity Plan review | Required | Recommended | -- | -- |
-| Incident response plan review | Required | Recommended | -- | -- |
-| Insurance certificate (cyber liability) | Required | Recommended | -- | -- |
-| Background check policy verification | Required | Recommended | -- | -- |
-| Subprocessor list review | Required | Required | Requested | -- |
+| Full security questionnaire (70+ questions) | Required | Required |: |: |
+| Abbreviated questionnaire (20-30 questions) |: |: | Required |: |
+| Self-attestation only |: |: |: | Required |
+| SOC 2 Type II report review | Required | Required | Requested |: |
+| ISO 27001 certificate review | Required | Required | Requested |: |
+| Penetration test report review | Required | Recommended |: |: |
+| Architecture/data flow review | Required | Recommended |: |: |
+| On-site or virtual security assessment | Recommended |: |: |: |
+| Data Processing Agreement (DPA) | Required | Required | If applicable |: |
+| Business Continuity Plan review | Required | Recommended |: |: |
+| Incident response plan review | Required | Recommended |: |: |
+| Insurance certificate (cyber liability) | Required | Recommended |: |: |
+| Background check policy verification | Required | Recommended |: |: |
+| Subprocessor list review | Required | Required | Requested |: |
 
 ### 4.2 Assessment Frequency
 
@@ -174,11 +174,11 @@ The weighted aggregate score determines the vendor's risk rating:
 
 When accepting risk for a vendor scoring below "Moderate Risk":
 
-1. **Document the business justification** -- Why is this vendor necessary? Are there alternatives?
-2. **Identify compensating controls** -- What controls will your organization implement to reduce the residual risk? (e.g., network segmentation, additional logging, data minimization)
-3. **Set a remediation timeline** -- The vendor must commit to addressing identified deficiencies within a defined period (typically 90 days for High Risk, 30 days for Critical items).
-4. **Increase monitoring frequency** -- High-risk vendors should be reassessed quarterly until the risk rating improves.
-5. **Record the risk acceptance** -- Document the acceptance in your risk register with the approver, date, justification, and review date.
+1. **Document the business justification**: Why is this vendor necessary? Are there alternatives?
+2. **Identify compensating controls**: What controls will your organization implement to reduce the residual risk? (e.g., network segmentation, additional logging, data minimization)
+3. **Set a remediation timeline**: The vendor must commit to addressing identified deficiencies within a defined period (typically 90 days for High Risk, 30 days for Critical items).
+4. **Increase monitoring frequency**: High-risk vendors should be reassessed quarterly until the risk rating improves.
+5. **Record the risk acceptance**: Document the acceptance in your risk register with the approver, date, justification, and review date.
 
 ### 6.3 Escalation Path
 

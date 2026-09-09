@@ -2,8 +2,8 @@
 
 **Pre-Onboarding Security and Compliance Review**
 
-**Version:** 1.0
-**Maintained by:** [TrazTech](https://traztech.ca)
+**Version:** 1.0  
+**Maintained by:** [TrazTech](https://traztech.ca)  
 **Compliance Mapping:** SOC 2 CC9.2 | ISO 27001 A.5.19-A.5.20 | HIPAA 164.308(b) | PCI DSS 12.8
 
 ---
@@ -67,7 +67,7 @@ Complete this checklist before onboarding any new vendor. The depth of review sh
 - [ ] [Tier 1 Only] Virtual or on-site security assessment conducted
 - [ ] Risk assessment report completed (see [Report Template](vendor-risk-assessment-report.md))
 
-**Risk Score:** _____ / 5.0
+**Risk Score:** _____ / 5.0  
 **Risk Rating:** [ ] Low [ ] Moderate [ ] High [ ] Critical
 
 **Notes:**
@@ -92,7 +92,7 @@ Complete this checklist before onboarding any new vendor. The depth of review sh
 - [ ] Subprocessor notification clause included
 - [ ] Governing law and jurisdiction reviewed
 
-**Legal Reviewer:** _____________
+**Legal Reviewer:** _____________  
 **Date Reviewed:** _____________
 
 **Notes:**
@@ -145,7 +145,7 @@ Complete this checklist before onboarding any new vendor. The depth of review sh
 - [ ] SCIM provisioning configured (if applicable)
 - [ ] API rate limits understood and acceptable
 
-**Technical Reviewer:** _____________
+**Technical Reviewer:** _____________  
 **Date Reviewed:** _____________
 
 **Notes:**

@@ -90,20 +90,20 @@ Sum the three factor scores (0-12 possible) and map to tiers:
 
 | Requirement | Tier 1 (Critical) | Tier 2 (High) | Tier 3 (Medium) | Tier 4 (Low) |
 |-------------|-------------------|---------------|-----------------|--------------|
-| Full security questionnaire (68 questions) | Required | Required |: |: |
-| Abbreviated questionnaire (20-30 questions) |: |: | Required |: |
-| Self-attestation only |: |: |: | Required |
-| SOC 2 Type II report review | Required | Required | Requested |: |
-| ISO 27001 certificate review | Required | Required | Requested |: |
-| Penetration test report review | Required | Recommended |: |: |
-| Architecture/data flow review | Required | Recommended |: |: |
-| On-site or virtual security assessment | Recommended |: |: |: |
-| Data Processing Agreement (DPA) | Required | Required | If applicable |: |
-| Business Continuity Plan review | Required | Recommended |: |: |
-| Incident response plan review | Required | Recommended |: |: |
-| Insurance certificate (cyber liability) | Required | Recommended |: |: |
-| Background check policy verification | Required | Recommended |: |: |
-| Subprocessor list review | Required | Required | Requested |: |
+| Full security questionnaire (68 questions) | Required | Required | - | - |
+| Abbreviated questionnaire (20-30 questions) | - | - | Required | - |
+| Self-attestation only | - | - | - | Required |
+| SOC 2 Type II report review | Required | Required | Requested | - |
+| ISO 27001 certificate review | Required | Required | Requested | - |
+| Penetration test report review | Required | Recommended | - | - |
+| Architecture/data flow review | Required | Recommended | - | - |
+| On-site or virtual security assessment | Recommended | - | - | - |
+| Data Processing Agreement (DPA) | Required | Required | If applicable | - |
+| Business Continuity Plan review | Required | Recommended | - | - |
+| Incident response plan review | Required | Recommended | - | - |
+| Insurance certificate (cyber liability) | Required | Recommended | - | - |
+| Background check policy verification | Required | Recommended | - | - |
+| Subprocessor list review | Required | Required | Requested | - |
 
 ### 4.2 Assessment Frequency
 

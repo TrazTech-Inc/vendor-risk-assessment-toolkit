@@ -102,7 +102,7 @@ Vendor reviews are one of many recurring compliance activities. For guidance on 
 ```bash
 cd automation/
 pip install -r requirements.txt
-python vendor_tracker.py --inventory ../templates/vendor-inventory.csv --report ../output/vendor-report.md
+python vendor_tracker.py --inventory ../examples/example-inventory.csv --report ../output/vendor-report.md
 ```
 
 The script reads your vendor inventory CSV, flags overdue reviews, identifies vendors missing SOC 2 reports or Data Processing Agreements, and generates a summary report.

@@ -238,6 +238,8 @@ This mapping reflects the approach TrazTech uses when preparing clients for SOC 
 
 ## NIST Cybersecurity Framework (CSF) Mapping
 
+**(NIST CSF 1.1 taxonomy; CSF 2.0 renames ID.SC to GV.SC)**
+
 ### ID.SC: Supply Chain Risk Management
 
 | NIST CSF Control | Toolkit Component | Coverage |

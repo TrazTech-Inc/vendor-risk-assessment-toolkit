@@ -37,32 +37,12 @@ except ImportError:
 
 console = Console()
 
-# Risk rating thresholds (from scoring guide)
-RISK_THRESHOLDS = {
-    "Low": (4.1, 5.0),
-    "Moderate": (3.0, 4.0),
-    "High": (2.0, 2.9),
-    "Critical": (1.0, 1.9),
-}
-
 RISK_COLORS = {
     "Low": "green",
     "Moderate": "yellow",
     "High": "dark_orange",
     "Critical": "red",
     "Unknown": "dim",
-}
-
-# Assessment frequency by tier (in days)
-TIER_REVIEW_FREQUENCY = {
-    "Tier 1": 365,       # Annual
-    "Tier 2": 365,       # Annual
-    "Tier 3": 730,       # Every 2 years
-    "Tier 4": 1095,      # Every 3 years
-    "Critical": 365,
-    "High": 365,
-    "Medium": 730,
-    "Low": 1095,
 }
 
 

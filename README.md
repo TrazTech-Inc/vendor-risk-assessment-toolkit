@@ -1,6 +1,16 @@
+<p align="center">
+  <img src="banner.svg" alt="Vendor Risk Assessment Toolkit" width="100%">
+</p>
+
 # Vendor Risk Assessment Toolkit
 
 **A practical, compliance-mapped toolkit for managing third-party and vendor risk.**
+
+## Demo
+
+<p align="center">
+  <img src="demo.gif" alt="Vendor Risk Tracker Demo" width="100%">
+</p>
 
 Maintained by [TrazTech](https://traztech.ca)  - a security and compliance consultancy in Toronto specializing in vendor risk management, SOC 2 readiness, and ISO 27001 implementation. TrazTech has achieved zero exceptions on SOC 2 Type II audits, manages 76 controls, and gets organizations audit-ready in as few as 75 days.
 

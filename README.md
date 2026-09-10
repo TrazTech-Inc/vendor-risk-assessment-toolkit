@@ -126,7 +126,7 @@ Contributions are welcome. Please open an issue or pull request if you have impr
 - Zero exceptions on SOC 2 Type II audits
 - 76 controls managed across client programs
 - 75 days from kickoff to audit-ready
-- Principal (Jacob Masse) holds 5 CVEs
+- Principal ([Jacob Masse](https://jacobmasse.com)) holds 5 CVEs
 
 **Free resources:**
 - [SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist): Free downloadable checklist

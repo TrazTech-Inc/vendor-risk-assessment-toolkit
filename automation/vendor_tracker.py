@@ -73,7 +73,7 @@ def parse_date(date_str: str) -> Optional[datetime]:
 
 def get_risk_rating(score: float) -> str:
     """Convert a numeric risk score to a risk rating."""
-    if score >= 4.1:
+    if score >= 4.0:
         return "Low"
     elif score >= 3.0:
         return "Moderate"

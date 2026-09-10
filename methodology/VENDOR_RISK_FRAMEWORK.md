@@ -90,7 +90,7 @@ Sum the three factor scores (0-12 possible) and map to tiers:
 
 | Requirement | Tier 1 (Critical) | Tier 2 (High) | Tier 3 (Medium) | Tier 4 (Low) |
 |-------------|-------------------|---------------|-----------------|--------------|
-| Full security questionnaire (68 questions) | Required | Required | - | - |
+| Full security questionnaire (70 questions) | Required | Required | - | - |
 | Abbreviated questionnaire (20-30 questions) | - | - | Required | - |
 | Self-attestation only | - | - | - | Required |
 | SOC 2 Type II report review | Required | Required | Requested | - |

@@ -62,7 +62,7 @@ vendor-risk-assessment-toolkit/
 |
 |-- templates/
 |   |-- vendor-inventory.csv                     # Vendor inventory spreadsheet template
-|   |-- vendor-security-questionnaire.md         # 68-question security questionnaire
+|   |-- vendor-security-questionnaire.md         # 70-question security questionnaire
 |   |-- vendor-risk-assessment-report.md         # Assessment report template
 |   |-- vendor-due-diligence-checklist.md        # Pre-onboarding checklist
 |   |-- data-processing-agreement-checklist.md   # DPA review checklist (GDPR Art.28 + PIPEDA)
@@ -86,7 +86,7 @@ vendor-risk-assessment-toolkit/
 This toolkit uses a **risk-based tiering** approach with **proportional assessment depth**:
 
 1. **Tier vendors** based on data access, integration depth, and business criticality (Critical / High / Medium / Low).
-2. **Assess proportionally**: Critical vendors get the full 68-question questionnaire and document review. Low-risk vendors get a streamlined assessment.
+2. **Assess proportionally**: Critical vendors get the full 70-question questionnaire and document review. Low-risk vendors get a streamlined assessment.
 3. **Score quantitatively** using a weighted rubric across seven security domains.
 4. **Review on schedule**: Critical vendors annually (or more frequently), with ongoing monitoring for material changes.
 5. **Track and automate**: Use the inventory tracker and Python automation to ensure nothing slips through the cracks.

@@ -1227,6 +1227,40 @@ This questionnaire is used to assess the security posture of third-party vendors
 
 ---
 
+### I7. AI Output Monitoring and Guardrails
+
+**Question:** Does your organization have a process for monitoring AI model outputs for bias, hallucination, or safety issues? Describe any guardrails in place.
+
+**Expected Evidence:** AI monitoring documentation, guardrail configuration.
+
+**Scoring Guidance:**
+- 5: Comprehensive AI output monitoring with automated guardrails; bias detection, hallucination detection, and safety filters in production; regular reviews of flagged outputs; documented escalation process
+- 4: AI output monitoring in place with guardrails for key risk areas; regular review of flagged outputs
+- 3: Basic monitoring of AI outputs; some guardrails implemented; periodic review
+- 2: Limited AI output monitoring; minimal guardrails
+- 1: No AI output monitoring or guardrails
+
+**Framework Mapping:** ISO 42001
+
+---
+
+### I8. AI Training Data Governance
+
+**Question:** How does your organization handle data used for training or fine-tuning AI models? Describe data governance practices.
+
+**Expected Evidence:** AI data governance policy, training data documentation.
+
+**Scoring Guidance:**
+- 5: Formal AI data governance program; training data inventoried, classified, and documented; data provenance tracked; consent and licensing verified; bias assessment performed on training datasets; regular audits of training data quality
+- 4: Documented AI data governance practices; training data cataloged; provenance and consent tracked; periodic reviews
+- 3: Basic training data governance; data sources documented; some quality controls in place
+- 2: Limited training data governance; informal documentation
+- 1: No AI data governance practices for training data
+
+**Framework Mapping:** ISO 42001, GDPR Art. 22
+
+---
+
 ## Submission Instructions
 
 Please return this completed questionnaire along with the following supporting documents:

@@ -266,8 +266,8 @@ Result: 3.65 = **Moderate Risk** (Approve with conditions)
 
 | Weighted Score | Risk Rating | Color | Action |
 |---------------|-------------|-------|--------|
-| **4.1 - 5.0** | Low Risk | Green | Approve. Standard monitoring per tier schedule. |
-| **3.0 - 4.0** | Moderate Risk | Yellow | Approve with conditions. Enhanced monitoring. Address gaps identified in assessment. |
+| **4.0 - 5.0** | Low Risk | Green | Approve. Standard monitoring per tier schedule. |
+| **3.0 - 3.9** | Moderate Risk | Yellow | Approve with conditions. Enhanced monitoring. Address gaps identified in assessment. |
 | **2.0 - 2.9** | High Risk | Orange | Requires CISO/VP risk acceptance. Compensating controls required. Reassess quarterly until improved. |
 | **1.0 - 1.9** | Critical Risk | Red | Do not approve without executive sign-off. Detailed remediation plan required. Consider alternative vendors. |
 

@@ -23,7 +23,7 @@
 
 ## 1. Executive Summary
 
-**Overall Risk Score:** 3.87 / 5.0
+**Overall Risk Score:** 3.60 / 5.0
 
 **Risk Rating:** [x] Moderate Risk
 
@@ -85,14 +85,14 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 | # | Domain | Weight | Score (1-5) | Weighted Score |
 |---|--------|--------|-------------|----------------|
-| 1 | Data Protection & Privacy | 25% | 4.0 | 1.00 |
-| 2 | Access Control & Authentication | 20% | 4.0 | 0.80 |
-| 3 | Infrastructure & Network Security | 15% | 4.0 | 0.60 |
-| 4 | Application Security & SDLC | 15% | 4.5 | 0.675 |
-| 5 | Incident Response & Business Continuity | 10% | 4.0 | 0.40 |
-| 6 | Governance & Compliance | 10% | 3.5 | 0.35 |
+| 1 | Data Protection & Privacy | 25% | 3.5 | 0.875 |
+| 2 | Access Control & Authentication | 20% | 3.5 | 0.700 |
+| 3 | Infrastructure & Network Security | 15% | 4.0 | 0.600 |
+| 4 | Application Security & SDLC | 15% | 4.0 | 0.600 |
+| 5 | Incident Response & Business Continuity | 10% | 3.5 | 0.350 |
+| 6 | Governance & Compliance | 10% | 3.0 | 0.300 |
 | 7 | Third-Party/Subprocessor Management | 5% | 3.5 | 0.175 |
-| | **Aggregate Weighted Score** | **100%** | | **3.87 / 5.0** (rounding: 4.00) |
+| | **Aggregate Weighted Score** | **100%** | | **3.60 / 5.0** |
 
 *Note: Individual question scores within each domain were averaged to produce the domain score. Decimal domain scores reflect averaging of question-level scores (e.g., Governance averaged across A1-A6 and H1-H5 questions).*
 
@@ -100,7 +100,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 ## 5. Detailed Findings
 
-### 5.1 Data Protection & Privacy (Score: 4.0 / 5)
+### 5.1 Data Protection & Privacy (Score: 3.5 / 5)
 
 **Strengths:**
 - AES-256 encryption at rest using AWS KMS
@@ -124,7 +124,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 ---
 
-### 5.2 Access Control & Authentication (Score: 4.0 / 5)
+### 5.2 Access Control & Authentication (Score: 3.5 / 5)
 
 **Strengths:**
 - MFA enforced for all users (employees and customers)
@@ -172,7 +172,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 ---
 
-### 5.4 Application Security & SDLC (Score: 4.5 / 5)
+### 5.4 Application Security & SDLC (Score: 4.0 / 5)
 
 **Strengths:**
 - Formal SSDLC with security gates in CI/CD pipeline
@@ -198,7 +198,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 ---
 
-### 5.5 Incident Response & Business Continuity (Score: 4.0 / 5)
+### 5.5 Incident Response & Business Continuity (Score: 3.5 / 5)
 
 **Strengths:**
 - NIST SP 800-61 aligned IRP with annual tabletop exercises
@@ -224,7 +224,7 @@ No override applied. Composite score of 7 places the vendor in Tier 2 (7-9).
 
 ---
 
-### 5.6 Governance & Compliance (Score: 3.5 / 5)
+### 5.6 Governance & Compliance (Score: 3.0 / 5)
 
 **Strengths:**
 - Dedicated VP of Security with Board reporting

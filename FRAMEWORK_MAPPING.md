@@ -45,7 +45,7 @@ This mapping reflects the approach TrazTech uses when preparing clients for SOC 
 | `scoring/risk-scoring-guide.md` | Quantitative, reproducible scoring methodology demonstrating rigor in vendor assessment |
 | `automation/vendor_tracker.py` | Automated monitoring for overdue reviews and compliance gaps: evidence of ongoing management |
 
-### CC3.1: CC3.4 (Risk Assessment)
+### CC3.1 - CC3.4 (Risk Assessment)
 
 | Criteria | Toolkit Component | Coverage |
 |----------|-------------------|----------|

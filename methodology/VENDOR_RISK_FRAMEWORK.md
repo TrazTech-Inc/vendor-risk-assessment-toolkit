@@ -90,7 +90,7 @@ Sum the three factor scores (0-12 possible) and map to tiers:
 
 | Requirement | Tier 1 (Critical) | Tier 2 (High) | Tier 3 (Medium) | Tier 4 (Low) |
 |-------------|-------------------|---------------|-----------------|--------------|
-| Full security questionnaire (70+ questions) | Required | Required |: |: |
+| Full security questionnaire (68 questions) | Required | Required |: |: |
 | Abbreviated questionnaire (20-30 questions) |: |: | Required |: |
 | Self-attestation only |: |: |: | Required |
 | SOC 2 Type II report review | Required | Required | Requested |: |
@@ -154,8 +154,8 @@ The weighted aggregate score determines the vendor's risk rating:
 
 | Weighted Score | Risk Rating | Action Required |
 |---------------|-------------|-----------------|
-| 4.1 - 5.0 | **Low Risk** | Approve; standard monitoring |
-| 3.0 - 4.0 | **Moderate Risk** | Approve with conditions; enhanced monitoring |
+| 4.0 - 5.0 | **Low Risk** | Approve; standard monitoring |
+| 3.0 - 3.9 | **Moderate Risk** | Approve with conditions; enhanced monitoring |
 | 2.0 - 2.9 | **High Risk** | Requires risk acceptance from CISO/VP; compensating controls required |
 | 1.0 - 1.9 | **Critical Risk** | Do not approve without executive sign-off and detailed remediation plan |
 
